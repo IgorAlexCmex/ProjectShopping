@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/setting"
+        app:icon="@drawable/settings_style">
+        <ListPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="1"
+            android:entries="@array/name_type"
+            android:entryValues="@array/value_type"
+            android:icon="@drawable/style_layout"
+            android:key="style_list"
+            app:useSimpleSummaryProvider="true"
+            android:summary="@string/summary_style_list"
+            android:title="@string/linerLayoutList" />
+        <ListPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/name_time"
+            android:entryValues="@array/value_time"
+            android:defaultValue="dd.MM.yyyy HH:mm:ss"
+            android:key="style_time"
+            android:summary="выбор формата времени"
+            app:useSimpleSummaryProvider="true"
+            android:title="@string/style_time"
+            app:icon="@drawable/style_time" />
+        <ListPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="text_size"
+            android:entries="@array/name_text_size"
+            android:entryValues="@array/value_text_size"
+            android:defaultValue="18"
+            app:useSimpleSummaryProvider="true"
+            android:title="@string/textSize"
+            app:icon="@drawable/text_size" />
+        <ListPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="theme"
+            android:entries="@array/name_theme"
+            android:entryValues="@array/value_theme"
+            app:useSimpleSummaryProvider="true"
+            android:defaultValue="1"
+            android:title="@string/colorTheme"
+            app:icon="@drawable/themes" />
+    </PreferenceCategory>
+</PreferenceScreen>

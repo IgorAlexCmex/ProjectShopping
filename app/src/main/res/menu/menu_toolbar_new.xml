@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:title="@string/saveInDbNew"
+    android:icon="@drawable/records"
+    android:orderInCategory="300"
+    app:showAsAction="ifRoom"
+    android:id="@+id/saveNewAdd">
+</item>
+    <item android:title="@string/selectStyleText"
+        android:icon="@drawable/style_text"
+        android:orderInCategory="200"
+        app:showAsAction="ifRoom"
+        android:id="@+id/selectStyleText">
+    </item>
+
+    <item android:title="@string/selectColorText"
+       android:icon="@drawable/color_picker"
+       android:orderInCategory="100"
+       app:showAsAction="ifRoom"
+       android:id="@+id/selectColorText">
+     </item>
+</menu>

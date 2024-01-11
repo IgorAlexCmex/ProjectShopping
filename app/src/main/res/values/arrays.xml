@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="name_type">
+        <item>@string/horizontal</item>
+        <item>@string/grid</item>
+    </string-array>
+    <string-array name="value_type">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="name_time">
+        <item>@string/time1</item>
+        <item>@string/time2</item>
+        <item>@string/time3</item>
+    </string-array>
+    <string-array name="value_time">
+        <item>dd.MM.yyyy HH:mm:ss</item>
+        <item>dd.MM.yyyy HH:mm</item>
+        <item>yyyy.MM.dd HH:mm</item>
+    </string-array>
+
+    <string-array name="name_text_size">
+        <item>@string/text1</item>
+        <item>@string/text2</item>
+        <item>@string/text3</item>
+        <item>@string/text4</item>
+    </string-array>
+    <string-array name="value_text_size">
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+    </string-array>
+
+    <string-array name="name_theme">
+        <item>@string/theme_whatsapp</item>
+        <item>@string/theme_blue</item>
+    </string-array>
+    <string-array name="value_theme">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

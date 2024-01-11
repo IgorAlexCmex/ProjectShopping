@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clContainerName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/fon_whatsapp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/tvTitleName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/anton"
+            android:gravity="center"
+            android:text="777"
+            android:textColor="@color/gold"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/progressBarName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ivPhotoName"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ProgressBar
+            android:id="@+id/progressBarName"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="3dp"
+            android:progressBackgroundTint="@color/lime"
+            android:progressBackgroundTintMode="add"
+            android:progressTint="#9C27B0"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/ivPhotoName"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitleName" />
+
+        <ImageView
+            android:id="@+id/ivPhotoName"
+            android:layout_width="60dp"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/fon_item_note"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@color/gold"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/tvTimeName"
+            app:layout_constraintEnd_toEndOf="@+id/tvTitleName"
+            app:layout_constraintStart_toStartOf="@+id/progressBarName"
+            app:layout_constraintTop_toBottomOf="@+id/progressBarName">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvTimeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="end"
+            android:paddingLeft="10dp"
+            android:paddingRight="8dp"
+            android:text="TextView"
+            android:textColor="@color/gold"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/tvTitleName"
+            app:layout_constraintTop_toBottomOf="@+id/progressBarName" />
+
+        <TextView
+            android:id="@+id/tvCountName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="15/6"
+            android:textColor="@color/gold"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ivPhotoName"
+            app:layout_constraintTop_toBottomOf="@+id/progressBarName"
+            app:layout_constraintVertical_bias="0.545" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageButton
+        android:id="@+id/ibEditName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/caldroid_transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/edit_item" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

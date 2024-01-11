@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Мои покупки</string>
+    <string name="setting">настройки</string>
+    <string name="note">заметки</string>
+    <string name="purchases">покупки</string>
+    <string name="add_note_shopping">новые записи</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titleNoteHint">заголовок заметки</string>
+    <string name="descriptionHint">текст заметки</string>
+    <string name="saveInDbNew">сохранение в БД</string>
+    <string name="selectPhoto">выбор фото</string>
+    <string name="textMessage">текст сообщения</string>
+    <string name="titleDialogDelete">удалить</string>
+    <string name="titleDeleteNote">удалить запись</string>
+    <string name="editActionBar">редактирование</string>
+    <string name="newRecord">новая запись</string>
+    <string name="selectStyleText">выбор стиля текста</string>
+    <string name="selectColorText">выбор цвета текста</string>
+    <string name="title_activity_set_name_list_shoppping">SetNameListShoppping</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="errorSetNameListShopping">Введите название списка покупок</string>
+    <string name="clearListShopping">очистить список покупок</string>
+    <string name="shareListShopping">поделиться списком покупок</string>
+    <string name="deleteItemListShopping">удалить элемент списка</string>
+    <string name="inputItemShoppingList">ввод элемента</string>
+    <string name="saveItemShoppingList">сохранить элемент списка</string>
+    <string name="itemName">товар</string>
+    <string name="infoItem">информация о товаре</string>
+    <string name="titleEdit">Редактирование</string>
+    <string name="linerLayoutList">расположение элементов списка</string>
+    <string name="horizontal">по горизонтали</string>
+    <string name="grid">таблица</string>
+    <string name="time1">число.месяц.год часы:минуты:секунды</string>
+    <string name="time2">число.месяц.год часы:минуты</string>
+    <string name="time3">год.месяц.число часы:минуты</string>
+
+    <string name="style_time">формат даты и времени</string>
+    <string name="summary_style_time">выбор формата даты и времени</string>
+    <string name="summary_style_list">выбор стиля показа элементов списка</string>
+
+    <string name="textSize">размер шрифта</string>
+    <string name="text1">шрифт 16sp</string>
+    <string name="text2">шрифт 18sp</string>
+    <string name="text3">шрифт 20sp</string>
+    <string name="text4">шрифт 22sp</string>
+
+    <string name="colorTheme">цвет темы </string>
+    <string name="theme_whatsapp"> зеленый фон </string>
+    <string name="theme_blue"> синий фон </string>
+
+</resources>
